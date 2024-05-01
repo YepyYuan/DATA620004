@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pickle
 from Dataloader import load_mnist
 import numpy as np
@@ -19,10 +18,3 @@ def test(data_path, model_path, load_kind = 't10k'):
     test_accuracy = (pred == label).mean()
 
     return test_accuracy
-=======
-from Dataloader import load_mnist
-
-path = '.data'
-
-image, label = load_mnist(path, kind= 'train')
->>>>>>> 54430f702e422c9bc66ee0ce6c889821f15a8cc7
